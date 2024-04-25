@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 917879685}
   - component: {fileID: 917879684}
   - component: {fileID: 917879683}
+  - component: {fileID: 917879690}
   m_Layer: 0
   m_Name: Enemigo
   m_TagString: Enemy
@@ -748,6 +749,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917879690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917879682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3efd28456a1cef4a937146701e36fb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 1348585268}
+  enemy: {fileID: 83640603}
+  projectileSpeed: 10
+  deactivateTime: 5
+  maxProjectiles: 80
 --- !u!1 &1049790305
 GameObject:
   m_ObjectHideFlags: 0
